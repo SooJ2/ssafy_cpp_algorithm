@@ -49,7 +49,6 @@ void solve(Point start, Point now, int sum, int di)
     {
         if (sum > max_answer) {
             max_answer = sum;
-            //cout << "FOUND MAX: " <<max << '\n';
             return;
         }
     }
